@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import Loding from "./Loading.jsx";
 
 const Profile = () => {
   const [user, setUser] = useState(null);
@@ -37,7 +38,7 @@ const Profile = () => {
     fetchData();
   }, []);
 
-  if (loading) return <p className="p-5">Loading profile...</p>;
+  if (loading) return < Loding />;
   if (!user) return <p className="p-5">User not logged in.</p>;
 
   const cardBackground = "#f4f6f9";
