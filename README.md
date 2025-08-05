@@ -33,8 +33,6 @@ The dashboard is deployed at:
 - 📈 Interactive portfolio and watchlist views  
 - 📊 Real-time data visualization with charts  
 - 🔄 Automatic updates and smooth navigation  
-- 🎨 Responsive design for desktop and mobile  
-
 ---
 
 ## ⚙️ Setup Instructions
